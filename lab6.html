@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Brand</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="lab4.css">
+    <style>
+        /* Responsive Design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, .container, footer {
+            text-align: center;
+            padding: 20px;
+        }
+        .featured-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <h1>Welcome to Fabric Fusion</h1>
+        <p>Your one-stop shop for the latest in fashion</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About Us</a>
+        <a href="#" class="nav-link">Shop</a>
+        <a href="mailto:bhutaniansh08@gmail.com" class="nav-link">Contact</a>
+        <a href="index.html" class="nav-link sign-in-btn">Sign In</a>
+    </nav>
+
+    <!-- Featured Image Section -->
+    <div class="featured-image">
+        <img src="1.png" alt="Featured Fashion">
+        <p><a href="https://beinghumanclothing.com/" target="_blank">Explore our full collection</a></p>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-section">
+        <center>
+            <h2>Watch Our Latest Collection</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KqPSdGKzepw?si=NwZPKPJ255mK6Tk2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- Your browser does not support the video tag. -->
+        </center>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Our Featured Products</h2>
+
+        <!-- Table for product details -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Classic Denim Jacket</td>
+                    <td>Outerwear</td>
+                    <td>$79.99</td>
+                </tr>
+                <tr>
+                    <td>Elegant Jeans</td>
+                    <td>Dresses</td>
+                    <td>$49.99</td>
+                </tr>
+                <tr>
+                    <td>Casual Sneakers</td>
+                    <td>Footwear</td>
+                    <td>$59.99</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Ordered List -->
+        <h3>Why Choose Us?</h3>
+        <ol>
+            <li>Exclusive designs you won't find anywhere else</li>
+            <li>High-quality materials that last</li>
+            <li>Affordable prices for all budgets</li>
+        </ol>
+
+        <!-- Unordered List -->
+        <h3>Our Services</h3>
+        <ul>
+            <li>Free shipping on orders over $50</li>
+            <li>Easy returns and exchanges</li>
+            <li>24/7 customer support</li>
+        </ul>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="audio-section">
+        <h2>Listen to Our Brand Story</h2>
+        <audio controls>
+            <source src="https://mail.google.com/mail/u/0?ui=2&ik=c1d715bb02&attid=0.1&permmsgid=msg-a:r-7335459308981880521&th=19522cf08246cc9a&view=att&disp=safe&realattid=f_m7d6b2a00&zw" type="audio/mp3">
+            <!-- Your browser does not support the audio element. -->
+        </audio>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Fabric Fusion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
